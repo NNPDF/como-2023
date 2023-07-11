@@ -1,0 +1,5 @@
+eko==0.13.5
+jupyterlab
+matplotlib
+pandas
+yadism[box]==0.12.5

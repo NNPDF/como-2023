@@ -1,0 +1,4 @@
+matplotlib
+qibo
+qibojit
+tensorflow>=2
