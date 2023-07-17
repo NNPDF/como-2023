@@ -1,0 +1,8 @@
+jupyterlab
+numpy
+scipy
+numba
+ipympl
+pymc
+pytensor
+arviz
