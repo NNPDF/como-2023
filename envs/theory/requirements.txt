@@ -1,3 +1,6 @@
+# note that for these tutorials we also require an installation of lhapdf
+# however since lhapdf is not available in pypi this needs to be installed
+# separately
 eko==0.13.5
 jupyterlab
 matplotlib
