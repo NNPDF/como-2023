@@ -1,5 +1,5 @@
 jupyterlab
 matplotlib
-qibo
-qibojit
+qibo==0.1.15
+qibojit==0.0.10
 tensorflow>=2
