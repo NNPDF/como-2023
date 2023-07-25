@@ -262,12 +262,12 @@ class VQRegressor:
     predictions = self.predict_sample()
 
     # draw the results
-    plt.figure(figsize=(8,5))
+    plt.figure(figsize=(12,6))
     plt.title(title)
     plt.xlabel('x')
     plt.ylabel('y')
-    plt.scatter(self.data, self.labels, color='purple', alpha=0.6, label='Target', s=25, marker='o')
-    plt.scatter(self.data, predictions, color='orange', alpha=0.6, label='Predictions', s=25, marker='o')
+    plt.scatter(self.data, self.labels, color='orange', alpha=0.5, label='Target', s=60, marker='s')
+    plt.scatter(self.data, predictions, color='purple', alpha=0.8, label='Predictions', s=10, marker='o')
     plt.xscale(xscale)
     plt.grid(True)
     plt.legend()
